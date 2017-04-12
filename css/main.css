@@ -1,0 +1,22 @@
+body {
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    font-family: 'Catamaran', sans-serif;
+}
+
+.nav {
+    padding: 3em;
+    background-color: #1A242E;
+    color: #BDA576;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 5em;
+
+}
+
+main {
+  color: #1A242E;
+}
