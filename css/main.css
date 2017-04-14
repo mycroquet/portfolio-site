@@ -17,19 +17,21 @@ h1 {
 
 }
 
-h3 {
+h4 {
   margin: 0;
 }
 
 .line {
   width: 8vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin: .5em 0 1em 0;
+}
+
+li {
+  line-height: 2em;
 }
 
 main {
+  display: flex;
+  flex-direction: row;
   color: #1A242E;
 }
 
@@ -38,7 +40,29 @@ main {
   margin: 1.5em 1em 0 0;
   flex-direction: column;
   padding: 1em;
-  width: 20vw;
   align-items: flex-end;
   border-right: 1px solid #CCC;
+}
+
+ul {
+  list-style: none;
+  text-align: right;
+}
+
+.bio {
+  width: 80vw;
+}
+
+.portrait {
+    width: 15vw;
+    border-radius: 50%;
+}
+
+.page-footer {
+  background-color: #1A242E !important;
+  color: #BDA576 !important;
+}
+
+.footer-copyright {
+  color: #BDA576 !important;
 }
