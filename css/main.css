@@ -44,13 +44,23 @@ main {
   border-right: 1px solid #CCC;
 }
 
-ul {
+aside ul {
   list-style: none;
   text-align: right;
 }
 
 .bio {
   width: 80vw;
+}
+
+.bio-pic {
+  display: inline-block;
+}
+
+.bio-text {
+  display: inline-block;
+  position: absolute;
+  padding: 2em;
 }
 
 .portrait {
