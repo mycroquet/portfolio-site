@@ -1,6 +1,4 @@
 body {
-    /*font-family: 'Lato', sans-serif;*/
-    /*font-family: 'Raleway', sans-serif;*/
     font-family: 'Catamaran', sans-serif;
 }
 
@@ -51,6 +49,7 @@ aside ul {
 
 .bio {
   width: 80vw;
+  margin-top: 2em;
 }
 
 .bio-pic {
@@ -75,4 +74,8 @@ aside ul {
 
 .footer-copyright {
   color: #BDA576 !important;
+}
+
+i {
+  margin: .7em .7em 0 0;
 }
