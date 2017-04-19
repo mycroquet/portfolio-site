@@ -85,7 +85,8 @@ a {
 }
 
 .portrait {
-    width: 15vw;
+    width: 13em;
+    height: 100%;
     border-radius: 50%;
 }
 
