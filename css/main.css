@@ -67,8 +67,8 @@ a {
   flex-flow: row;
   justify-content: space-between;
   width: 75vw;
-  height: 27vh;
-  margin-top: 2em;
+  height: 30vh;
+  /*margin-top: 1em;*/
   border-bottom: 1px solid #CCC;
 }
 
