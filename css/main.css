@@ -58,6 +58,10 @@ aside ul {
   text-align: right;
 }
 
+a {
+  color: inherit;
+}
+
 .bio {
   display: flex;
   flex-flow: row;
