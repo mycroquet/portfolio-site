@@ -84,6 +84,25 @@ a {
   padding: 2em;
 }
 
+.bio-col {
+  display: flex;
+  flex-flow: column;
+}
+
+.download .btn {
+  background-color: #BDA576;
+  color: #1A242E;
+  display: flex;
+  justify-content: center;
+  width: 9.5em;
+  padding: 0;
+  margin-left: 2em;
+}
+
+/*.download i {
+  margin: 0;
+}*/
+
 .portrait {
     height: 13em;
     border-radius: 50%;
