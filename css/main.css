@@ -99,6 +99,22 @@ a {
   margin-left: 2em;
 }
 
+.download .btn:hover {
+  background-color: #1A242E;
+  color: #BDA576;
+}
+
+.card .card-image img {
+  opacity: 0.6;
+}
+
+.card .card-image img:hover {
+  opacity: .9;
+}
+
+.card .card-reveal {
+  opacity: .8;
+}
 /*.download i {
   margin: 0;
 }*/
