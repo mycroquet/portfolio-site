@@ -12,13 +12,47 @@
 
 <body>
     <header>
+        <nav class="mobile">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">MICHAEL ROQUE</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+                <ul class="side-nav" id="mobile-demo">
+                  <h4>LANGUAGES</h4>
+                  <img class="line" src="images/line-break.png" alt="">
+                  <li>SQL</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>Knex</li>
+                  <li>AngularJS</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <br>
+                  <h4>SKILLS</h4>
+                  <img class="line" src="images/line-break.png">
+                  <li>Bootstrap Framework</li>
+                  <li>Materialize CSS Framework</li>
+                  <li>Agile Development</li>
+                  <li>Database Architecture</li>
+                  <li>Pair Programming</li>
+                  <li>Test Driven Development</li>
+                  <li>JIRA</li>
+                  <li>Pivotal Tracker</li>
+                </ul>
+            </div>
+        </nav>
         <div class="nav">
+
             <h1>MICHAEL ROQUE</h1>
             <h4>WEB DEVELOPER</h4>
         </div>
+
     </header>
 
     <main>
+
         <aside class="col l5 m2 s6 skills">
             <h4>LANGUAGES</h4>
             <img class="line" src="images/line-break.png" alt="">
@@ -47,21 +81,20 @@
 
         </aside>
         <div class="page-content">
-            <section class="col l7 m10 s12 bio">
+            <section class="bio">
                 <!-- <header>
             <h3>ABOUT ME</h3>
           </header> -->
                 <div class="col l5 m6 s12 bio-pic">
                     <img class="portrait" src="images/Mike-Roque.jpg" alt="">
                 </div>
-                <div class="bio-col">
-                  <div class="col l7 m6 s12 bio-text">I am a Denver-based Web Developer with a background in front end web development as well as extensive experience in SQL databases working in the B2B eCommerce software industry. I'm looking forward to expanding my knowledge and experience
-                      while being an integral part of an agile development team.</div>
-                  <div class="download">
-                      <a class="btn" href="PDFs/Roque_Michael_Resume.pdf" download>
-                        <i class="material-icons ">play_for_work</i>
-                        My Resume</a>
-                  </div>
+                <div class="col l7 m6 s12 bio-col">
+                    <div class="bio-text">I am a Denver-based Web Developer with a background in front end web development as well as extensive experience in SQL databases working in the B2B eCommerce software industry. I'm looking forward to expanding my knowledge and experience
+                        while being an integral part of an agile development team.</div>
+                    <div class="download">
+                        <a class="btn" href="PDFs/Roque_Michael_Resume.pdf" download>
+                            <i class="col s8 material-icons ">play_for_work</i> My Resume</a>
+                    </div>
 
                 </div>
 
@@ -69,7 +102,7 @@
             </section>
             <section class="col l7 m10 s12 project-container">
                 <div class="col s12 projects">
-                    <div class="section-title">
+                    <div class="col s12 section-title">
                         <h3>PROJECTS</h3>
                     </div>
                     <div class="col m6 s12 project-cards">
@@ -168,9 +201,8 @@
 
                             <div class="card-reveal" style="display: none; transform: translateY(0px);">
                                 <span class="card-title grey-text text-darken-4">Marine Nunn Education Fund<i class="material-icons right">close</i></span>
-                                <p>I am a volunteer technical manager for this non-profit education fund. My duties include managing the different social
-                                media pages as well as updating web content as needed. <br>The Marine Nunn Education Fund grants scholarship funds to qualifying students
-                                to help ease the financial burden of achieving a higher education.</p>
+                                <p>I am a volunteer technical manager for this non-profit education fund. My duties include managing the different social media pages as well as updating web content as needed. <br>The Marine Nunn Education Fund grants scholarship
+                                    funds to qualifying students to help ease the financial burden of achieving a higher education.</p>
                             </div>
                         </div>
                     </div>
@@ -208,6 +240,7 @@
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="functions/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 </body>
 

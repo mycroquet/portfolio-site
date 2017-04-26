@@ -177,3 +177,56 @@ a {
 i {
   margin: .7em .7em 0 0;
 }
+
+@media (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills {
+    display: none;
+  }
+
+  .bio-pic {
+    display: block;
+    position: absolute;
+    width: 100vw;
+  }
+
+  .mobile {
+    background-color: #1A242E;
+    color: #1A242E !important;
+  }
+
+  .brand-logo {
+    color: #BDA576 !important;
+  }
+
+  .material-icons {
+    color: #BDA576 !important;
+  }
+
+  i {
+    margin: 0;
+  }
+
+  .side-nav {
+    padding: 2em !important;
+  }
+
+  .line {
+    width: 35vw;
+    height: .5vh;
+  }
+
+  .side-nav li {
+    line-height: 2em;
+    margin-left: 2em;
+  }
+
+  .nav {
+    display: none;
+  }
+}
