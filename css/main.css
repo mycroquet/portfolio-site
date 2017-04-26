@@ -160,7 +160,7 @@ a {
   color: #1A242E !important;
 }
 
-.section-header {
+.section-title {
   display: flex;
   width: 100vw;
 }
@@ -178,21 +178,53 @@ i {
   margin: .7em .7em 0 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .mobile {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .skills {
     display: none;
   }
 
+  .page-content {
+    flex-flow: column;
+  }
+
+  .bio {
+    flex-direction: column;
+    border-bottom: none;
+  }
+
+
   .bio-pic {
     display: block;
-    position: absolute;
-    width: 100vw;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .bio-text {
+    display: block;
+    position: relative;
+  }
+
+  .download .btn {
+    width: 70vw;
+  }
+
+  .project-container {
+    margin-top: 20em;
+  }
+
+  .project-cards {
+    display: block;
+    position: relative;
+  }
+
+  .card {
+    width: 80vw;
   }
 
   .mobile {
