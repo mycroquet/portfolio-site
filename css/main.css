@@ -179,7 +179,7 @@ i {
 }
 
 @media (min-width: 800px) {
-  .mobile {
+  nav {
     display: none;
   }
 }
